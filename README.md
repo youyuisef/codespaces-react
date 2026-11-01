@@ -53,7 +53,7 @@ Make sure Node.js and npm are installed.
 
 ## Live Demo
 
-A permanent public demo link will be added once deployment is complete.
+https://focus-dashboard-silk.vercel.app
 
 ## Future Development
 
