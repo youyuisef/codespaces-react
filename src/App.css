@@ -587,3 +587,22 @@ color: #1f2937;
     height: min(330px, 82vw);
   }
 }
+
+
+.deadline-notice {
+  font-size: 13px;
+  color: #64748b;
+  text-align: right;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .deadline-notice {
+    text-align: left;
+  }
+}

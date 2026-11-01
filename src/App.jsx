@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import './App.css';
 
@@ -192,47 +193,50 @@ function App() {
   }
 
   if (studyActivity) {
-  return (
-    <div className="activity-page">
-      <button
-        className="back-button"
-        onClick={() => setStudyActivity(null)}
-      >
-        ← Back to {selectedSubject}
-      </button>
+    return (
+      <div className="activity-page">
+        <button
+          className="back-button"
+          onClick={() => setStudyActivity(null)}
+        >
+          ← Back to {selectedSubject}
+        </button>
 
-      <div className="activity-content">
-        <p className="activity-label">
-          {studyActivity === 'notes' ? 'REVIEW NOTES' : 'PRACTICE QUESTIONS'}
-        </p>
-
-        <h1>{selectedSubject}</h1>
-
-        <p className="activity-description">
-          {studyActivity === 'notes'
-            ? 'Bring your notes into one place and work through the important ideas.'
-            : 'Work through questions without your notes, then check what needs more revision.'}
-        </p>
-
-        <div className="activity-empty">
-          <span>{studyActivity === 'notes' ? '✎' : '?'}</span>
-
-          <h2>
+        <div className="activity-content">
+          <p className="activity-label">
             {studyActivity === 'notes'
-              ? 'Your notes will live here.'
-              : 'Your practice space will live here.'}
-          </h2>
-
-          <p>
-            {studyActivity === 'notes'
-              ? 'We’ll build this into a clean space for reviewing each subject.'
-              : 'We’ll build this into a focused space for testing yourself.'}
+              ? 'REVIEW NOTES'
+              : 'PRACTICE QUESTIONS'}
           </p>
+
+          <h1>{selectedSubject}</h1>
+
+          <p className="activity-description">
+            {studyActivity === 'notes'
+              ? 'Bring your notes into one place and work through the important ideas.'
+              : 'Work through questions without your notes, then check what needs more revision.'}
+          </p>
+
+          <div className="activity-empty">
+            <span>{studyActivity === 'notes' ? '✎' : '?'}</span>
+
+            <h2>
+              {studyActivity === 'notes'
+                ? 'Your notes will live here.'
+                : 'Your practice space will live here.'}
+            </h2>
+
+            <p>
+              {studyActivity === 'notes'
+                ? 'We’ll build this into a clean space for reviewing each subject.'
+                : 'We’ll build this into a focused space for testing yourself.'}
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
+
   if (studyMode) {
     return (
       <div className="study-page">
@@ -249,25 +253,25 @@ function App() {
           <p>What do you want to work on?</p>
         </div>
 
-       <div className="study-options">
-  <button onClick={() => setStudyActivity('notes')}>
-    <span>01</span>
-    <strong>Review notes</strong>
-    <small>Read through your key material</small>
-  </button>
+        <div className="study-options">
+          <button onClick={() => setStudyActivity('notes')}>
+            <span>01</span>
+            <strong>Review notes</strong>
+            <small>Read through your key material</small>
+          </button>
 
-  <button onClick={() => setStudyActivity('practice')}>
-    <span>02</span>
-    <strong>Practice questions</strong>
-    <small>Test what you actually know</small>
-  </button>
+          <button onClick={() => setStudyActivity('practice')}>
+            <span>02</span>
+            <strong>Practice questions</strong>
+            <small>Test what you actually know</small>
+          </button>
 
-  <button onClick={() => setTimerMode(true)}>
-    <span>03</span>
-    <strong>Focus timer</strong>
-    <small>Start a distraction-free session</small>
-  </button>
-</div>
+          <button onClick={() => setTimerMode(true)}>
+            <span>03</span>
+            <strong>Focus timer</strong>
+            <small>Start a distraction-free session</small>
+          </button>
+        </div>
       </div>
     );
   }
@@ -278,15 +282,11 @@ function App() {
         <div className="brand">
           <span className="brand-dot"></span>
           Focus.
-          </div>
+        </div>
 
-        <nav className="nav-links">
-          <button className="nav-active">Dashboard</button>
-          <button>Calendar</button>
-          <button>Study</button>
-        </nav>
-
-        <button className="settings-button">⚙</button>
+        <span className="deadline-notice">
+          Unfinished project due to deadline constraints.
+        </span>
       </header>
 
       <h1>Study Dashboard</h1>
@@ -302,11 +302,11 @@ function App() {
           onClick={() => setSelectedSubject('Chemistry')}
         >
           <div className="subject-top">
-  <span>CHEM</span>
-  <span>→</span>
-</div>
-<h3>Chemistry</h3>
-<p>0 tasks remaining</p>
+            <span>CHEM</span>
+            <span>→</span>
+          </div>
+          <h3>Chemistry</h3>
+          <p>0 tasks remaining</p>
         </div>
 
         <div
@@ -316,11 +316,11 @@ function App() {
           onClick={() => setSelectedSubject('Mathematics')}
         >
           <div className="subject-top">
-  <span>MATH</span>
-  <span>→</span>
-</div>
-<h3>Mathematics</h3>
-<p>0 tasks remaining</p>
+            <span>MATH</span>
+            <span>→</span>
+          </div>
+          <h3>Mathematics</h3>
+          <p>0 tasks remaining</p>
         </div>
 
         <div
@@ -329,33 +329,33 @@ function App() {
           }`}
           onClick={() => setSelectedSubject('English')}
         >
-         <div className="subject-top">
-  <span>ENG</span>
-  <span>→</span>
-</div>
-<h3>English</h3>
-<p>0 tasks remaining</p>
+          <div className="subject-top">
+            <span>ENG</span>
+            <span>→</span>
+          </div>
+          <h3>English</h3>
+          <p>0 tasks remaining</p>
         </div>
       </div>
 
       <h2 className="today-title">Today</h2>
 
-     <div className="today-panel">
-  <div className="today-content">
-    <span className="today-status">ALL CLEAR</span>
-    <h3>Nothing due today 🎉</h3>
-    <p>You're all caught up. Pick a subject to get ahead.</p>
-  </div>
+      <div className="today-panel">
+        <div className="today-content">
+          <span className="today-status">ALL CLEAR</span>
+          <h3>Nothing due today 🎉</h3>
+          <p>You're all caught up. Pick a subject to get ahead.</p>
+        </div>
 
-  <button
-    disabled={!selectedSubject}
-    onClick={() => setStudyMode(true)}
-  >
-    {selectedSubject
-      ? `Start ${selectedSubject} session →`
-      : 'Select a subject first'}
-  </button>
-</div>
+        <button
+          disabled={!selectedSubject}
+          onClick={() => setStudyMode(true)}
+        >
+          {selectedSubject
+            ? `Start ${selectedSubject} session →`
+            : 'Select a subject first'}
+        </button>
+      </div>
     </div>
   );
 }
