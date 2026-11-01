@@ -1,70 +1,64 @@
-# GitHub Codespaces ♥️ React
+# Focus.
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+**Focus. — A productivity dashboard built to help you stay organised and focused.**
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## About the Project
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Focus. is a web-based productivity dashboard that brings productivity tools together in one convenient workspace.
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+The goal is to provide a clean and straightforward interface where users can organise their activities, manage their work and concentrate on what matters.
 
-## Available Scripts
+## Why I Built Focus.
 
-In the project directory, you can run:
+I wanted to explore how a well-designed dashboard could make everyday productivity easier.
 
-### `npm start`
+Instead of constantly switching between different pages and applications, I wanted to create a central workspace that makes it easier to stay organised and reduce distractions.
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
+Focus. is also an opportunity for me to improve my skills in React, frontend development and user-interface design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+## Features
 
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
+- A central productivity dashboard.
+- An interface designed around organisation and focus.
+- A web-based experience accessible through a browser.
 
-### `npm test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- JavaScript
+- CSS
+- Vite
 
-### `npm run build`
+## Running the Project Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure Node.js and npm are installed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   `git clone https://github.com/youyuisef/codespaces-react.git`
 
-## Learn More
+2. Enter the project folder:
 
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
+   `cd codespaces-react`
 
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
+3. Install dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   `npm install`
 
-### Code Splitting
+4. Start the development server:
 
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
+   `npm run dev`
 
-### Analyzing the Bundle Size
+5. Open the local URL displayed in your terminal.
 
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
+## Live Demo
 
-### Making a Progressive Web App
+A permanent public demo link will be added once deployment is complete.
 
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
+## Future Development
 
-### Advanced Configuration
+I plan to continue improving the dashboard's functionality, usability and overall experience.
 
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
+## Hack Club Stardance
 
-### Deployment
-
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
-
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+Focus. was developed as part of my Hack Club Stardance projects.
