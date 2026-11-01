@@ -1,64 +1,39 @@
-# Focus.
+FOCUS
 
-**Focus. — A productivity dashboard built to help you stay organised and focused.**
 
-## About the Project
 
-Focus. is a web-based productivity dashboard that brings productivity tools together in one convenient workspace.
+Hello! mhy name is Yousef, and I created Focus- a productivity dashboard I made for Hack Club Stardance! I wanted to make something that could help people stay organised, get their work done and not have to have multiple apps for that.
 
-The goal is to provide a clean and straightforward interface where users can organise their activities, manage their work and concentrate on what matters.
+The idea was to have everything in one place, with a nice looking dashboard that was also easy to use. I also wanted to improve my React and frontend development skills while making something that could actually be useful!
 
-## Why I Built Focus.
 
-I wanted to explore how a well-designed dashboard could make everyday productivity easier.
 
-Instead of constantly switching between different pages and applications, I wanted to create a central workspace that makes it easier to stay organised and reduce distractions.
+IMPORTANT NOTE 
 
-Focus. is also an opportunity for me to improve my skills in React, frontend development and user-interface design.
+Focus was emergency shipped because I was EXTREMELY close to the Stardance deadline!!
 
-## Features
+Because of this, most of the features probably wont work properly, and some might not work at all. There are also bugs and unfinished parts of the website that I didnt have enough time to fix.
 
-- A central productivity dashboard.
-- An interface designed around organisation and focus.
-- A web-based experience accessible through a browser.
+I had originally planned to spend more time working on everything, but the deadline was approaching way too quickly, so I decided to ship what I had rather than not submit anything.
 
-## Technologies
 
-- React
-- JavaScript
-- CSS
-- Vite
 
-## Running the Project Locally
+Development
 
-Make sure Node.js and npm are installed.
+I built Focus using React, JavaScript, CSS and Vite.
 
-1. Clone the repository:
+I spent time working on the dashboard layout, the interface and trying to get everything looking the way I wanted. My main goal was to make it look basic, clean, but stay very useful.
 
-   `git clone https://github.com/youyuisef/codespaces-react.git`
+One of the biggest challenges was actually getting everything finished in time (I was basically racing against the entire universe at that point 😭). I had more things I wanted to work on, but I eventually had to prioritise getting the project deployed.
 
-2. Enter the project folder:
 
-   `cd codespaces-react`
 
-3. Install dependencies:
-
-   `npm install`
-
-4. Start the development server:
-
-   `npm run dev`
-
-5. Open the local URL displayed in your terminal.
-
-## Live Demo
+Live Website
 
 https://focus-dashboard-silk.vercel.app
 
-## Future Development
+just remember that alot of things are still unfinished!
 
-I plan to continue improving the dashboard's functionality, usability and overall experience.
 
-## Hack Club Stardance
 
-Focus. was developed as part of my Hack Club Stardance projects.
+Thanks for checking out Focus!!
